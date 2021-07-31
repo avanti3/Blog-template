@@ -1,0 +1,16 @@
+body {
+  overflow-x: hidden;
+}
+
+@media (min-width: 770px) {
+  textarea {
+    width: 50% !important;
+    margin-left: 230px;
+  }
+  .contact-us {
+    margin-left: 230px;
+  }
+  .width {
+    width: 60%;
+  }
+}

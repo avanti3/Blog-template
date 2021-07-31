@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+
+body {
+  overflow-x: hidden;
+  font-family: "Marcellus", serif;
+}
+
+@media (max-width: 769px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+  }
+  .header {
+    margin-left: 25px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .blog-img {
+    margin-left: 50px !important;
+  }
+  .featured {
+    margin-left: 65px !important;
+    padding-top: 20px !important;
+  }
+  .featured-img {
+    margin-left: 25px !important;
+  }
+  .para {
+    margin-left: 25px !important;
+  }
+  .second-module {
+    width: 100% !important;
+  }
+  .first-module {
+    width: 100% !important;
+  }
+  .articles {
+    margin-left: 25px !important;
+  }
+  .divide {
+    display: none;
+  }
+  .blog-image {
+    height: 300px !important;
+  }
+  .article-para {
+    margin-left: 0px !important;
+  }
+}
+
+.nav-item a:hover {
+  color: palevioletred !important;
+}
+
+@media (min-width: 426px) and (max-width: 769px) {
+  .para {
+    margin-left: 40px !important;
+  }
+  .articles {
+    margin-left: 40px !important;
+  }
+}
